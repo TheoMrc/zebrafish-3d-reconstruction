@@ -39,7 +39,7 @@ The main authors of the code are Guillaume Ravel, PhD (At the time PhD student i
 ### [main_3D_reconstruction.f90](./main_3D_reconstruction.f90)
 - **Row Count:** 4171
 - **Description:** 
-  This file contains the Fortran90 code for reconstructing the zebrafish shape in 3D. The algorithm processes 2D segmented images of a swimming zebrafish after procrustes analysis, extracts the midline and body surface points to afterwards generate a 3D shape of zebrafish larva that deforms over time, without translation or rotation rigid motions. This deforming 3D shape is then input in a Navier-Stokes equations solver (see [Bergmann et *al.*, 2014](10.4208/cicp.220313.111013a)). 
+  This file contains the Fortran90 code for reconstructing the zebrafish shape in 3D. The algorithm processes 2D segmented images of a swimming zebrafish after procrustes analysis, extracts the midline and body surface points to afterwards generate a 3D shape of zebrafish larva that deforms over time, without translation or rotation rigid motions. This deforming 3D shape is then input in a Navier-Stokes equations solver (see [Bergmann *et al.*, 2014](10.4208/cicp.220313.111013a)). 
 
 ## Modules and Utilities
 
