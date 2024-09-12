@@ -11,7 +11,7 @@ This repository contains multiple Fortran90 files used to process segmented imag
 For an example video: https://github.com/TheoMrc/zebrafish-3d-reconstruction/blob/main/Example.mp4
 
 ## Code authors
-The main authors of the code are Guillaume Ravel, PhD (At the time PhD student in Mathematics and IT at INRIA (Bordeaux, France) and Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France) and Michel Bergmann, PhD (Senior researcher at INRIA, Bordeaux, France). Théo Mercé, PhD (Post-doctorate student in Biochemistry at Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France) cleaned the files, prepared the repository and optimized some of the scripts from the project.
+The main authors of the code are Guillaume Ravel, PhD (At the time PhD student in Mathematics and IT at INRIA (Bordeaux, France) and Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France) and Michel Bergmann, PhD (Senior researcher at INRIA, Bordeaux, France). Théo Mercé, PhD (Post-doctorate student in Biochemistry at Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France) cleaned the files, prepared the repository and optimized some of the scripts from the project for publication.
 
 ## Table of Contents
 1. [Main Files](#main-files)
@@ -34,12 +34,12 @@ The main authors of the code are Guillaume Ravel, PhD (At the time PhD student i
 ### [main_2D_reconstruction.f90](./main_2D_reconstruction.f90)
 - **Row Count:** 3003
 - **Description:** 
-  This is the optimized version of the 3D reconstruction code that pre-processed 2D fish shape, reducing memory consumption compared to the 3D version. The code reconstructs the 2D midline of the fish and recalculates points along the midline and the sides of a binarised shapes of a swimming zebrafish after procrusted analysis (see the [Zebrafish procrustes analysis repository](https://github.com/TheoMrc/zebrafish-procrustes-analysis)). This file is executed multiple times due to the iterative process of adjusting the extracted midline.
+  This is the optimized version of the 3D reconstruction code that pre-processed 2D fish shape, reducing memory consumption compared to the 3D version. The code reconstructs the 2D midline of the fish and recalculates points along the midline and the sides of a binarised shapes of a swimming zebrafish after procrusted analysis (see the [Zebrafish procrustes analysis](https://github.com/TheoMrc/zebrafish-procrustes-analysis) repository). This file is executed multiple times due to the iterative process of adjusting the extracted midline.
 
 ### [main_3D_reconstruction.f90](./main_3D_reconstruction.f90)
 - **Row Count:** 4171
 - **Description:** 
-  This file contains the Fortran90 code for reconstructing the zebrafish shape in 3D. The algorithm processes 2D segmented images of a swimming zebrafish after procrustes analysis, extracts the midline and body surface points to afterwards generate a 3D shape of zebrafish larva that deforms over time, without translation or rotation rigid motions. This deforming 3D shape is then input in a Navier-Stokes equations solver (see [Bergmann et *al.*, 2014](10.4208/cicp.220313.111013a) 
+  This file contains the Fortran90 code for reconstructing the zebrafish shape in 3D. The algorithm processes 2D segmented images of a swimming zebrafish after procrustes analysis, extracts the midline and body surface points to afterwards generate a 3D shape of zebrafish larva that deforms over time, without translation or rotation rigid motions. This deforming 3D shape is then input in a Navier-Stokes equations solver (see [Bergmann et *al.*, 2014](10.4208/cicp.220313.111013a)). 
 
 ## Modules and Utilities
 
