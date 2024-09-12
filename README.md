@@ -5,10 +5,13 @@ Fortran90 code to reconstruct a 3D deforming zebrafish larva shape from segmente
 
 This repository contains multiple Fortran90 files used to process segmented images of zebrafish larvae and reconstruct a deforming 3D shape from 2D and 3D data. Below is a brief description of each file included in this repository.
 
-## Example video of 3D reconstruction
-https://github.com/TheoMrc/zebrafish-3d-reconstruction/blob/main/Example.mp4
+## Example of 3D reconstruction
+![Example Image](./Example_image.png)
 
-The main authors of the code are Guillaume Ravel, PhD (At the time PhD student in Mathematics and IT at INRIA (Bordeaux, France) and Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France), Michel Bergmann, PhD (Senior researcher at INRIA, Bordeaux, France) and Théo Mercé, PhD (Post-doctorate student in Biochemistry at Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France).
+For an example video: https://github.com/TheoMrc/zebrafish-3d-reconstruction/blob/main/Example.mp4
+
+## Code authors
+The main authors of the code are Guillaume Ravel, PhD (At the time PhD student in Mathematics and IT at INRIA (Bordeaux, France) and Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France) and Michel Bergmann, PhD (Senior researcher at INRIA, Bordeaux, France). Théo Mercé, PhD (Post-doctorate student in Biochemistry at Rare diseases, genetics and metabolism (MRGM, INSERM U1211, Bordeaux, France) cleaned the files, prepared the repository and optimized some of the scripts from the project.
 
 ## Table of Contents
 1. [Main Files](#main-files)
